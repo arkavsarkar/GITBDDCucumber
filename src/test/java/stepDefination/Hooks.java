@@ -13,6 +13,7 @@ public class Hooks {
 			m.add_place_payload_is_available_with("arkav", "Bengali", "SODEPUR");
 			m.api_is_called_with_post_http_request("AddPlaceAPI", "POST");
 			m.is_called_and_check_created_place_id_maps_to_the("GetPlaceAPI", "arkav");
+			System.out.println("checking GIT");
 		}
 	}
 }
