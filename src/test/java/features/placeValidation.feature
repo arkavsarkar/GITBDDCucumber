@@ -15,7 +15,9 @@ Feature: Validating place API
     Examples:
 	  |name 	|language |address 		 |
     |AAHouse|French   |Eiffel Tower|  
-#    |ACHouse|English  |WTO tower	 |			 
+#    |ACHouse|English  |WTO tower	 |	
+		|London house|Spanish|Baker Lane|		
+		|Germany house|German|wertyr Lane |	 
 
   @DeletePlace
   Scenario: Verify whether delete place functatonality is working
